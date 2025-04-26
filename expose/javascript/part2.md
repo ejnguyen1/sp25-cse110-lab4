@@ -9,3 +9,9 @@
 9. Line 11 causes an error. Because `i` is declared using the `let` keyword, it is block-scoped and therefore undefined outside of the `for` block.
 10. Line 12 prints `3`, the value stored in `length`. This is the length of the prices array.
 11. This function will return `[50, 100, 150]`, the `discounted` array. This array contains the values from the `prices` array, but discounted by the `discount` amount.
+12. A. student.name
+    B. student['Grad Year']
+    C. student.greeting()
+    D. student['Favorite Teacher']['name']
+    E. student['courseLoad'][0]
+13. 
