@@ -44,4 +44,4 @@
     `Boolean(2)` returns `true`, causing these values to be strictly equal. <br>
 15. The `==` operator checks regular equality, meaning values that are equivalent but different types will be determined equal. The `===` checks for strict equality, meaning values must be the same type (equal without conversions).
 17. `modifyArray` iterates through the inputted array. For each value in the array, the function uses `callback` to perform another function on this individual number in the array. In this case, `callback` calls the function `doSomething`, which multiplies an inputted integer by 2. This causes each number in the inputted array to be doubled. 
-18. 
+19. When `printNums` is run, first it prints `1`. Next, line 3 executes, causing it to print `2` in 1 second. Next, line 4 executes, causing it to print `3` in 0 seconds. However, both of these timers do not start until the rest of the synchronous code executes. Therefore `4` is printed next, the `3` after 0 seconds, then `2` after 1 second.
