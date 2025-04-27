@@ -43,3 +43,5 @@
     F. `true === Boolean(2) = true` <br>
     `Boolean(2)` returns `true`, causing these values to be strictly equal. <br>
 15. The `==` operator checks regular equality, meaning values that are equivalent but different types will be determined equal. The `===` checks for strict equality, meaning values must be the same type (equal without conversions).
+17. `modifyArray` iterates through the inputted array. For each value in the array, the function uses `callback` to perform another function on this individual number in the array. In this case, `callback` calls the function `doSomething`, which multiplies an inputted integer by 2. This causes each number in the inputted array to be doubled. 
+18. 
